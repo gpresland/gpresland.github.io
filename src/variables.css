@@ -1,0 +1,18 @@
+@import './colors.css';
+
+:root {
+  --color-background: var(--palette-blue-grey-900);
+  --color-background-dark: color(var(--color-background) shade(25%));
+  --color-background-light: color(var(--color-background) tint(25%));
+
+  --color-text: var(--color-white);
+  --color-text-fadded: color(var(--color-white) shade(25%));
+  --color-text-bright: color(var(--color-text) tint(25%));
+
+  --color-primary: var(--color-black);
+  --color-primary-dark: color(var(--color-primary) shade(10%));
+  --color-primary-light: color(var(--color-primary) tint(10%));
+
+  --animation-delay: 0s;
+  --animation-duration: 0.3s;
+}
