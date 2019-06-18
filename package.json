@@ -48,6 +48,7 @@
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "particles.js": "^2.0.0"
   }
 }
